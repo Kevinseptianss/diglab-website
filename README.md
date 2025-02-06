@@ -1,3 +1,5 @@
+This freelance job takes 1 day to complete, with a 3 days deadline
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
