@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'CriqueLight';
+  src: url('./assets/CriqueGrotesk-Light.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CriqueMedium';
+  src: url('./assets/CriqueGrotesk-Medium.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CriqueDisplayLight';
+  src: url('./assets/CriqueGroteskDisplay-Light.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CriqueDisplayMedium';
+  src: url('./assets/CriqueGroteskDisplay-Medium.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.crique-light {
+  font-family: 'CriqueLight', sans-serif;
+}
+
+.crique-medium {
+  font-family: 'CriqueMedium', sans-serif;
+}
+
+.clip-path-trapezoid {
+  clip-path: polygon(0 100%, 100% 100%, 85% 0, 15% 0);
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+}
